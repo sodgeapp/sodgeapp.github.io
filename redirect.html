@@ -4,11 +4,10 @@
     <title>SODGE OPEN SOURCE REDIRECT SYSTEM</title>
   </head>
   <body>
-    Wait... We are redirecting you...
-    
+    Wait... We are redirecting you... <span style="opacity: 0.5">If you are not redirected, make sure javascript is enabled on your browser</span>
     <script>
     // params sys
-    function getParameterByName(name, url) {
+    function param(name, url) {
       if (!url) url = window.location.href;
       name = name.replace(/[\[\]]/g, "\\$&");
       var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -19,9 +18,11 @@
     }
     
     // request handler
-    var request = getParameterByName('request');
+    var request = param('request');
     if (request == "emailv"){
-      window.location.replace("https://app.sodge.ml/verify?id=" + getParameterByName('id') + "&code=" + getParameterByName('code'));
+      window.location.replace("https://app.sodge.ml/verify?id=" + param('id') + "&code=" + param('code'));
+    } else {
+      document.getElementsByTagName('body').innerHTML = "Unknown request, please, make sure you wrote the correct URL.";
     }
     </script>
   </body>
