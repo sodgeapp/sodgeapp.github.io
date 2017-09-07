@@ -21,8 +21,15 @@
     var request = param('request');
     if (request == "emailv"){
       window.location.replace("https://app.sodge.ml/verify?id=" + param('id') + "&code=" + param('code'));
+      done();
     } else {
       document.getElementsByTagName('body').innerHTML = "Unknown request, please, make sure you wrote the correct URL.";
+      console.log("error");
+    }
+      
+    // msg
+    function done(){
+      console.log("done");
     }
     </script>
   </body>
