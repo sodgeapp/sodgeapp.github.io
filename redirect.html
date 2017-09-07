@@ -3,7 +3,7 @@
   <head>
     <title>SODGE OPEN SOURCE REDIRECT SYSTEM</title>
   </head>
-  <body>
+  <body id="text">
     Wait... We are redirecting you... <span style="opacity: 0.5">If you are not redirected, make sure javascript is enabled on your browser</span>
     <script>
     // welcome
@@ -26,7 +26,7 @@
       window.location.replace("https://app.sodge.ml/verify?id=" + param('id') + "&code=" + param('code'));
       done();
     } else {
-      document.getElementsByTagName('body').innerHTML = "Unknown request, please, make sure you wrote the correct URL.";
+      document.getElementsById('text').innerHTML = "Unknown request, please, make sure you wrote the correct URL.";
       console.log("error");
     }
       
