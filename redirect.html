@@ -26,7 +26,7 @@
       window.location.replace("https://app.sodge.ml/verify?id=" + param('id') + "&code=" + param('code'));
       done();
     } else {
-      document.getElementsById('text').innerHTML = "Unknown request, please, make sure you wrote the correct URL.";
+      document.getElementById('text').innerHTML = "Unknown request, please, make sure you wrote the correct URL.";
       console.log("error");
     }
       
