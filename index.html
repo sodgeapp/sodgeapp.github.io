@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title></title>
+  </head>
+  <body>
+
+    <!-- modals -->
+    <div id="platforms" class="modal bottom-sheet">
+      <div class="modal-content">
+        <h4>Download</h4>
+        <p>
+          <div class="collection hide-on-med-and-up" style="border-width: 0px;">
+            <a href="#!" class="collection-item" style="background-color: transparent"><i class="fa fa-android"></i> Android</a>
+            <a href="#!" class="collection-item" style="background-color: transparent"><i class="fa fa-apple"></i> iOS</a>
+            <a href="#!" class="collection-item" style="background-color: transparent"><i class="fa fa-windows"></i> Windows</a>
+            <a href="#!" class="collection-item" style="background-color: transparent"><i class="fa fa-chrome"></i> Chrome</a>
+          </div>
+        </p>
+        <div style="font-size: 150%; text-align: center" class="row container hide-on-small-only">
+          <div class="col s6">
+            <div class="card hoverable grey lighten-4">
+              <div class="card-content">
+                <i class="fa fa-android"></i> Android
+              </div>
+            </div>
+          </div>
+          <div class="col s6">
+            <div class="card hoverable grey lighten-4">
+              <div class="card-content">
+                <i class="fa fa-apple"></i> iOS
+              </div>
+            </div>
+          </div>
+          <div class="col s6">
+            <div class="card hoverable grey lighten-4">
+              <div class="card-content">
+                <i class="fa fa-windows"></i> Windows
+              </div>
+            </div>
+          </div>
+          <div class="col s6">
+            <div class="card hoverable grey lighten-4">
+              <div class="card-content">
+                <i class="fa fa-chrome"></i> Chrome
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="valign-wrapper" style="width: 100%; height: 100%; position: absolute; background-image: url(img/waves.png); background-size: cover; background-repeat: no-repeat; background-position: bottom;">
+      <div style="width: 100%;">
+        <center>
+          <div class="container">
+            <img src="img/donut.svg" width="40%" class="hide-on-med-and-up" alt="">
+            <div class="hide-on-small-only aspectratio z-depth-2" style="width: 60%; border-radius: 10px; overflow: hidden;">
+              <div class="inneraspectratio">
+                <video width="100%" height="100%" src="vid/trailer.mp4" autoplay poster="img/donut.svg"></video>
+              </div>
+            </div></br>
+            <div style="width: 50%; height: 6px; border-radius: 6px; margin: 16px;" class="yellow">
+
+            </div>
+            <div id="platformbuttons">
+              <center>
+                <div id="windows" class="hidden">
+                  <a class="waves-effect grey lighten-4 btn-large black-text waves-dark btn-flat"><i class="fa fa-windows"></i> WINDOWS APP</a></br>
+                </div>
+                <div id="android" class="hidden">
+                  <a class="waves-effect grey lighten-4 btn-large black-text waves-dark btn-flat"><i class="fa fa-android"></i> ANDROID APK</a></br>
+                </div>
+                <div id="apple" class="hidden">
+                  <a class="waves-effect grey lighten-4 btn-large black-text waves-dark btn-flat"><i class="fa fa-apple"></i> IOS IPA</a></br>
+                </div>
+                <div id="chrome" class="hidden">
+                  <a class="waves-effect grey lighten-4 btn-large black-text waves-dark btn-flat"><i class="fa fa-chrome"></i> WEB</a></br>
+                </div>
+
+
+
+              </center>
+            </div>
+            <a data-target="platforms" class="modal-trigger waves-effect grey-text waves-dark btn-flat">OTHER PLATFORMS</a>
+          </div>
+        </center>
+      </div>
+    </div>
+
+
+    <div style="width: 100%; position: absolute; left: 0px; width: 100%; top: 99%;">
+      <div style="background-color: #EBEBEB; background-image: url(img/waves-yellow.png); background-size: contain; background-repeat: no-repeat; background-position: bottom;">
+        <div class="container" style="padding: 16px; padding-bottom: 150px">
+          <div class="row">
+            <div class="col m6 s12">
+              <h1 class="mono">PEOPLE</br>LIKE</br>YOU</h1>
+            </div>
+            <div class="col m6 s12">
+              <p class="flow-text">Across all your favourite social networks*</p>
+              <h1>
+                <i class="fa light-blue-text fa-twitter"></i>
+                <i class="fa purple-text fa-instagram"></i>
+                <i class="fa blue-text fa-facebook"></i>
+                <i class="fa red-text fa-google"></i>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="yellow hide-on-small-only" style="padding-top: 50px">
+        <div class="row" style="margin-bottom:0px">
+          <div class="col valign-wrapper offset-m2 m4 s12" style="height: 600px;">
+            <div style="width: 100%; text-align: center;">
+              <h3>People with your same hobbies</h3>
+            </div>
+          </div>
+          <div class="col m6 hide-on-small-only" style="background-image: url(img/slides/concert.png); background-attachment: fixed; background-size: contain; background-position:85% 50%; background-repeat: no-repeat; height: 600px;">
+
+          </div>
+        </div>
+        <div class="row" style="margin-bottom:0px;">
+          <div class="col valign-wrapper offset-m2 m4 s12" style="height: 600px;">
+            <div style="width: 100%; text-align: center;">
+              <h3>People in your city</h3>
+            </div>
+          </div>
+          <div class="col m6 hide-on-small-only" style="background-image: url(img/slides/groups.png); background-attachment: fixed; background-size: contain; background-position:85% 50%; background-repeat: no-repeat; height: 600px;">
+
+          </div>
+        </div>
+
+        <div class="row" style="margin-bottom:0px;">
+          <div class="col valign-wrapper offset-m2 m4 s12" style="height: 600px;">
+            <div style="width: 100%; text-align: center;">
+              <h3>Search by area</h3>
+            </div>
+          </div>
+          <div class="col m6 hide-on-small-only" style="background-image: url(img/slides/maps.png); background-attachment: fixed; background-size: contain; background-position:85% 50%; background-repeat: no-repeat; height: 600px;">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="yellow hide-on-med-and-up">
+        <div class="container" style="padding-bottom: 40px; padding-top: 40px">
+          <div class="">
+            <h4 style="margin: 0px; padding-bottom: 40px">People with your same hobbies</h4>
+          </div>
+          <div class="">
+            <h4 style="margin: 0px; padding-bottom: 40px">People in your city</h4>
+          </div>
+          <div class="">
+            <h4 style="margin: 0px">Search by area</h4>
+          </div>
+        </div>
+      </div>
+      <div style="background-color: #EBEBEB; background-image: url(img/waves-yellow.png); background-size: contain; background-repeat: no-repeat; background-position: bottom; transform: rotate(180deg);">
+        <div class="hide-on-small-only">
+          <div style="height: 300px">
+
+          </div>
+        </div>
+        <div class="hide-on-med-and-up">
+          <div style="height: 100px">
+
+          </div>
+        </div>
+      </div>
+      <div style="background-color: #EBEBEB">
+        <div class="container">
+          <h1 class="mono" style="margin:0px">Contact us</h1>
+          <h1 style="margin: 0px; padding-bottom: 16px">
+            <i class="fa light-blue-text fa-twitter"></i>
+            <i class="fa purple-text fa-instagram"></i>
+            <i class="fa blue-text fa-facebook"></i>
+            <i class="fa red-text fa-google"></i>
+          </h1>
+          <a style="margin-bottom: 16px" class="waves-effect btn-large waves-dark white black-text">PRESS</a>
+        </div>
+      </div>
+      <footer class="page-footer yellow">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="black-text">Sodge</h5>
+              <p class="black-text text-lighten-4">People like you</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="black-text">Links</h5>
+              <ul>
+                <li><a class="black-text text-lighten-3" href="#!">Privacy</a></li>
+                <li><a class="black-text text-lighten-3" href="#!">Terms of use</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2017 Boresoft
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+      $('.modal').modal();
+    });
+    </script>
+    <script type="text/javascript">
+    var OSName = "Unknown";
+    if (window.navigator.userAgent.indexOf("Windows NT 10.0")!= -1) OSName="Windows";
+    if (window.navigator.userAgent.indexOf("Windows NT 6.2") != -1) OSName="Windows";
+    if (window.navigator.userAgent.indexOf("Windows NT 6.1") != -1) OSName="Windows";
+    if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) OSName="Windows";
+    if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) OSName="Windows";
+    if (window.navigator.userAgent.indexOf("Windows NT 5.0") != -1) OSName="Windows";
+    if (window.navigator.userAgent.indexOf("Mac")            != -1) OSName="Mac";
+    if (window.navigator.userAgent.indexOf("X11")            != -1) OSName="UNIX";
+    if (window.navigator.userAgent.indexOf("Linux")          != -1) OSName="Linux";
+    if (OSName == "Windows") {
+      $("#windows").removeClass("hidden")
+    } else if (OSName == "Mac") {
+      $("#apple").removeClass("hidden")
+    } else if (OSName == "Linux") {
+      $("#android").removeClass("hidden")
+    } else {
+      $("#chrome").removeClass("hidden")
+    }
+    </script>
+  </body>
+</html>
